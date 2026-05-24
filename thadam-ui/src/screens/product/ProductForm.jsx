@@ -35,7 +35,7 @@ import AlertMessage from "../../components/alert/AlertMessage";
 import { isAlphabet, isNumberic } from "../../common/validation";
 import { useSelector } from "react-redux";
 import "./products.scss";
-import ProductTypeFields from "../../components/ProductTypeFields";
+// import ProductTypeFields from "../../components/ProductTypeFields";
 
 export const ProductForm = () => {
   const navigate = useNavigate();
@@ -343,7 +343,7 @@ export const ProductForm = () => {
               <Grid size={{ lg: 12, md: 12, sm: 12, xs: 12 }}>
                 <Divider />
               </Grid>
-              {<ProductTypeFields productType={product.productType} />}
+              {/* {<ProductTypeFields productType={product.productType} />} */}
             </Grid>
             <Grid container spacing={3} sx={{ mb: 2 }}>
               {/* <Grid size={{ lg: 12, md: 12, sm: 12, xs: 12 }}>
