@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route, Switch } from "react-router";
 
 // Components
-import LogIn from "../screens/login/Login";
+import LogIn from "../screens/login/LogIn";
 import Home from "../screens/home/Home";
 import { CustomerList } from "../screens/customers/CustomerList";
 import { CustomerForm } from "../screens/customers/CustomerForm";
