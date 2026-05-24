@@ -1,0 +1,44 @@
+.table-container {
+    & .MuiIconButton-root {
+        box-shadow: 0px 2px 10px #5f5f5f;
+        padding: 0.2rem;
+
+        &.btn-edit {
+            background-color: #009FDF;
+            color: #fff;
+        }
+
+        &.btn-delete {
+            background-color: #FF0000;
+            color: #fff;
+        }
+
+        & .MuiSvgIcon-root {
+            font-size: 1.1rem;
+        }
+    }
+
+    & table tr:nth-child(even) {
+        background-color: #f3f3f3; /* Light grey background for even rows */
+    }
+    
+    & table td:last-child, table th:last-child {
+        text-align: center;
+    }
+
+    & table td {
+        padding: 8px;
+    }
+
+    & .bg-green {
+        background-color: #2ba32b;
+        color: #ffffff;
+        padding: 2px;
+    }
+
+    & .bg-red {
+        background-color: #f93939;
+        color: #ffffff;
+        padding: 2px;
+    }
+}

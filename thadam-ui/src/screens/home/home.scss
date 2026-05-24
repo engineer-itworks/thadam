@@ -1,0 +1,11 @@
+$app-bar-bg-color: #FFCD1C;
+$app-bar-color: #000000;
+
+.home {
+    font-family: "Inter", sans-serif;
+
+    & .MuiAppBar-root {
+        background-color: $app-bar-bg-color;
+        color: $app-bar-color;
+    }
+}

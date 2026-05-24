@@ -1,0 +1,19 @@
+.new-product{
+    & .product-header{
+        display: flex;
+        align-items: center;
+        margin: 50px;
+        gap: 50px;
+    }
+    & .product-form{
+        display: flex;
+        gap: 50px;
+        margin: 50px;
+        & .product-box{
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+}

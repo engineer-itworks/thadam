@@ -1,0 +1,18 @@
+$btn-contained-bg-color: #FFCD1C;
+$btn-contained-color: #ffffff;
+$btn-text-color: #3240C3;
+
+.login {
+    & .MuiButtonBase-root {
+        text-transform: none;
+    }
+
+    & .MuiButton-contained {
+        background-color: $btn-contained-bg-color !important;
+        color: $btn-contained-color !important;
+    }
+    
+    & .MuiButton-text {
+        color: $btn-text-color !important;
+    }
+}

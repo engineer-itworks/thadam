@@ -1,0 +1,17 @@
+.user{
+    & .user-header{
+        margin: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        & .user-header-left{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+        }
+    }
+    & .TableContent{
+        margin: 50px;
+    }
+}

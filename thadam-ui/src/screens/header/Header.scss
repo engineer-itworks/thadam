@@ -1,0 +1,16 @@
+$btn-contained-bg-color: green;
+$btn-contained-color: #ffffff;
+$btn-text-color: #3240C3;
+
+header{
+    background-color: $btn-contained-bg-color !important;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    & #outlined-basic{
+        width: 200px;
+        background-color: white;
+        height: 10px;
+        margin: 20px 20px 20px 20px;
+    }
+}

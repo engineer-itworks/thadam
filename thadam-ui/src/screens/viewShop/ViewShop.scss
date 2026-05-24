@@ -1,0 +1,29 @@
+.viewShop{
+    & .shopTop{
+        display: flex;
+        margin-left: 50px;
+        margin-right: 50px;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    & .shopTopLeft{
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    & .inputForm{
+        display: flex;
+        align-items: center;
+        & h3{
+            width: 400px;
+        }
+        margin-top: 20px;
+    }
+    & .formfield{
+        margin: 50px;
+    }
+    
+      
+}
