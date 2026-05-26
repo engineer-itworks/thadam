@@ -1,11 +1,11 @@
 const db = require('../firestore/firestore-connection.js');
 const Joi = require('joi');
 
-const { getFormattedErrorMessage, userSchema } = require('../validators/joiValidator.js');
+const { getFormattedErrorMessage, userSchema, customerSchema } = require('../validators/joiValidator.js');
 
 // Create a new user
 exports.createCustomer = async (req, res) => {
-    const { error, value } = userSchema.validate(req.body);
+    const { error, value } = customerSchema.validate(req.body);
 
     if (error) {
         return res.status(400).json({

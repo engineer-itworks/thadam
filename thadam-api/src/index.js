@@ -1,8 +1,12 @@
 // Express
+const cors = require('cors');
 const express = require('express');
 const app = express();
 const Joi = require('joi');
 const port = 3000;
+
+// cors middleware
+app.use(cors());
 
 // Middleware to parse JSON request body
 const bodyParser = require('body-parser');
