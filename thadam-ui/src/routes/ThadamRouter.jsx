@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter, Routes, Route, Switch } from "react-router";
 
 // Components
-import LogIn from "../screens/login/LogIn";
 import Home from "../screens/home/Home";
 import { CustomerList } from "../screens/customers/CustomerList";
 import { CustomerForm } from "../screens/customers/CustomerForm";
@@ -15,6 +14,7 @@ import { ViewOrder } from "../screens/order/ViewOrder";
 import { NewProduct } from "../screens/product/NewProduct";
 import { AllProduct } from "../screens/product/AllProduct";
 import { ViewCompany } from "../screens/company/ViewCompany";
+import LogIn from "../screens/login/Login";
 
 const ThadamRouter = () => {
   return (
